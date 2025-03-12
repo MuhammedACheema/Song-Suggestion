@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav'
+import Home from './components/Home'
 
 function App() {
   return (
     <div>
     <Nav/>
+    <Home/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

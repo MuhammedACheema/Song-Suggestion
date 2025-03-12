@@ -5,7 +5,7 @@ function Nav(){
         <nav> 
              <ul>
                 <li><a href = " ">Home</a></li>
-                <li><a href = " ">Recommendations</a></li>
+                <li><a href = "">Recommendations</a></li>
                 <li><a href = " ">Mixer</a></li>
                 <li style={{float:"right"}}><a href = " ">Sign In</a></li>
              </ul>
