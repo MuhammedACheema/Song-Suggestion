@@ -1,5 +1,6 @@
 import React from 'react'
 import './Nav.css'
+
 function Nav(){
     return(
         <nav> 
@@ -13,5 +14,24 @@ function Nav(){
        
     )
 }
+
+{/* <Router>
+            <Switch>
+            <nav> 
+                <Route exact path="/" component={Home} />
+                <Route path = "/Recommendations" component={Recommendations}/>
+                <Route path = "/Mixer" component={Mixer}/>
+                <Route style={{float:"right"}} path = "/Signin" component={Signin}/>
+            </nav>
+            </Switch>
+
+        <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/project" component={Projects} />
+        <Route path="/aboutus" component={AboutUs}/>
+      </Switch>
+        </Router> */}
+       
 
 export default Nav;
