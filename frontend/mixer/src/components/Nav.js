@@ -1,13 +1,14 @@
 import React from 'react'
-import './Nav.css'
+import './styles/Nav.css'
+import { Link } from "react-router-dom"; // Import Link for navigation
 
 function Nav(){
     return(
         <nav> 
              <ul>
-                <li><a href = " ">Home</a></li>
-                <li><a href = "">Recommendations</a></li>
-                <li><a href = " ">Mixer</a></li>
+                <li><Link to = "/">Home</Link></li>
+                <li><Link to= "/Recommendations">Recommendations</Link></li>
+                <li><Link to = "/Mixer">Mixer</Link></li>
                 <li style={{float:"right"}}><a href = " ">Sign In</a></li>
              </ul>
         </nav>

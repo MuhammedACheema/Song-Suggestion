@@ -1,7 +1,9 @@
 import React from "react";
-import './Home.css'
+import './styles/Home.css'
 
 function Home(){
+    console.log("Home component loaded"); // Debugging line
+
     return(
         <div className="back">
             <h1>Welcome to DJ Mixer</h1>
